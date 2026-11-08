@@ -54,3 +54,56 @@ INSERT INTO courses (
 ('Desarrollo de Aplicaciones Móviles', 'Fundamentos y desarrollo de aplicaciones para dispositivos móviles.', 3, 7, TRUE),
 
 ('Inteligencia Artificial', 'Fundamentos de inteligencia artificial, aprendizaje automático y algoritmos inteligentes.', 4, 8, TRUE);
+
+INSERT INTO teachers (
+    name,
+    email,
+    phone,
+    specialty,
+    status
+) VALUES
+('Jesus David Mejia', 'jesus.mejia@uceva.edu.co', '3201234567', 'Programación Web', TRUE),
+
+('Ana Maria Velasquez', 'ana.velasquez@uceva.edu.co', '3212345678', 'Bases de Datos', TRUE),
+
+('Luis Fernando Ortiz', 'luis.ortiz@uceva.edu.co', '3223456789', 'Matemáticas', TRUE),
+
+('Paola Andrea Cardona', 'paola.cardona@uceva.edu.co', '3234567890', 'Ingeniería de Software', TRUE),
+
+('Ricardo Alberto Salazar', 'ricardo.salazar@uceva.edu.co', '3245678901', 'Redes de Computadores', TRUE),
+
+('Marcela Patricia Duque', 'marcela.duque@uceva.edu.co', '3256789012', 'Sistemas Operativos', TRUE),
+
+('Hector Julian Ruiz', 'hector.ruiz@uceva.edu.co', '3267890123', 'Arquitectura de Software', TRUE),
+
+('Diana Carolina Marin', 'diana.marin@uceva.edu.co', '3278901234', 'Inteligencia Artificial', TRUE),
+
+('Oscar Mauricio Parra', 'oscar.parra@uceva.edu.co', '3289012345', 'Aplicaciones Móviles', TRUE),
+
+('Natalia Isabel Franco', 'natalia.franco@uceva.edu.co', '3290123456', 'Programación I', TRUE);
+
+INSERT INTO classrooms (
+    name,
+    building,
+    capacity,
+    status
+) VALUES
+('Aula 101', 'Bloque A', 35, TRUE),
+
+('Aula 102', 'Bloque A', 40, TRUE),
+
+('Aula 201', 'Bloque A', 30, TRUE),
+
+('Aula 202', 'Bloque B', 45, TRUE),
+
+('Laboratorio de Sistemas 1', 'Bloque B', 25, TRUE),
+
+('Laboratorio de Sistemas 2', 'Bloque B', 25, TRUE),
+
+('Laboratorio de Redes', 'Bloque C', 20, TRUE),
+
+('Auditorio Principal', 'Bloque C', 120, TRUE),
+
+('Sala de Videoconferencias', 'Bloque D', 15, TRUE),
+
+('Aula 301', 'Bloque D', 38, TRUE);
